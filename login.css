@@ -14,7 +14,7 @@ h1{
     font-family: 'Stick No Bills', sans-serif;
 }
 
-p{
+header p{
     font-size: 25px;
     padding-top: 40px;
     margin-bottom: 1px;
@@ -33,6 +33,7 @@ main{
 form{
     margin-top: 100px;
     width: 50%;
+    height: 500px;
 }
 
 form label{
@@ -67,17 +68,21 @@ form label{
     transform: scale(1.05);
 }
 
-a{
+.link{
     display: inline;
-    width: 35%;
-    padding: 2px;
+    font-size: 16px;
 }
 
 footer{
-   text-align: center;
+    background: blueviolet;
+    text-align: center;
+ }
+
+ #logo-footer{
+    width: 10%;
 }
 
-.logo-footer{
-    width: 15%;
-    margin-top: 50px;
+.copyright{
+    padding-bottom: 10px;
+    font-size: 20px;
 }
