@@ -7,6 +7,10 @@
 
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="cadastro.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -49,12 +53,14 @@
             </div>
 
             <div class="campos">
-                <label>Gostaria de acrescentar mais alguma informação?</label>
+                <label for="informacao">Gostaria de acrescentar mais alguma informação?</label>
                 <textarea rows="6" style="width: 26em;" id="informacao" name="informacao"></textarea>
             </div>
 
-            <div>
-                <label for="checkbox"><input type="checkbox" id="checkbox">Gostaria de receber nossas promoções e novidades por email?</label>
+            <div class="campos">
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox">Gostaria de receber nossas promoções e novidades por email?
+                </label>
             </div>
 
             <button class="botao" type="submit">Cadastrar</button>

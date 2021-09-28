@@ -3,7 +3,7 @@ body{
 }
 
 header{
-   background: blueviolet;
+    background: blueviolet;
     text-align: center;
     padding: 20px;
 }
@@ -48,6 +48,10 @@ form label{
     padding: 10px 25px;
     width: 50%;
     border-radius: 10px;
+}
+
+.input-padrao:focus{
+    background: rgb(177, 96, 253);
 }
 
 .efetuar-login{
