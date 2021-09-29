@@ -1,9 +1,18 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+
 body{
     font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(rgb(200, 144, 253), rgb(172, 131, 255) 25%, rgb(121, 56, 252) 80%, rgb(110, 37, 255) 90%);
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
 }
 
 header{
-    background: blueviolet;
     text-align: center;
     padding: 20px;
 }
@@ -21,10 +30,6 @@ header p{
     font-style: italic;
 }
 
-body{
-    background: #CCCCCC;
-}
-
 main{
     width: 940px;
     margin: auto;
@@ -33,7 +38,7 @@ main{
 form{
     margin-top: 100px;
     width: 50%;
-    height: 500px;
+    height: 400px;
 }
 
 form label{
@@ -50,14 +55,10 @@ form label{
     border-radius: 10px;
 }
 
-.input-padrao:focus{
-    background: rgb(177, 96, 253);
-}
-
 .efetuar-login{
     width: 61%;
     padding: 5px 0;
-    background: blueviolet;
+    background: darkviolet;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -78,7 +79,6 @@ form label{
 }
 
 footer{
-    background: blueviolet;
     text-align: center;
  }
 

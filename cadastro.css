@@ -1,12 +1,21 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+
 body{
     font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(rgb(200, 144, 253) 10%, rgb(172, 131, 255) 25%, rgb(121, 56, 252) 80%, rgb(110, 37, 255));
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
 }
 
 header{
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    background: blueviolet;
 }
 
 header h1{
@@ -20,12 +29,9 @@ header p{
     padding-top: 40px;
 }
 
-body{
-    background-color: #CCCCCC;
-}
-
-form{
-    margin-left: 500px;
+main{
+    width: 940px;
+    margin: auto;
 }
 
 .campos label{
@@ -42,16 +48,8 @@ form{
     border-radius: 5px;
 }
 
-.campos input:focus{
-    background: rgb(177, 96, 253);
-}
-
 #informacao{
     border-radius: 5px;
-}
-
-#informacao:focus{
-    background: rgb(177, 96, 253);
 }
 
 .botao{
@@ -60,7 +58,7 @@ form{
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    background: blueviolet;
+    background: darkviolet;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -71,4 +69,17 @@ form{
 .botao:hover{
     transform: scale(1.05);
     transition: all 1s;
+}
+
+footer{
+    text-align: center;
+}
+
+#logo-footer{
+    width: 10%;
+}
+
+.copyright{
+    padding-bottom: 10px;
+    font-size: 20px;
 }
