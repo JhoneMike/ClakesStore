@@ -41,7 +41,10 @@ main{
 
 .campos input[type="text"]{
     display: block;
-    
+}
+
+.campos input[type="text"], .campos input[type="email"], .campos input[type="tel"], .campos input[type="password"]{
+    width: 25%;
 }
 
 .campos input{
@@ -77,6 +80,10 @@ footer{
 
 #logo-footer{
     width: 10%;
+}
+
+.copyright::before{
+    content: "©";
 }
 
 .copyright{

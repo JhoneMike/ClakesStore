@@ -86,6 +86,10 @@ footer{
     width: 10%;
 }
 
+.copyright::before{
+    content: "©";
+}
+
 .copyright{
     padding-bottom: 10px;
     font-size: 20px;
