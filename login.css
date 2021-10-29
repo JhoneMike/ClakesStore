@@ -6,12 +6,45 @@ html {
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    background: linear-gradient(rgb(200, 144, 253), rgb(172, 131, 255) 25%, rgb(121, 56, 252) 80%, rgb(110, 37, 255) 90%);
+    background: #FFFFFF;
     margin: 0px;
     min-height: 100%;
     width: 100%;
 }
 
+.conteudo-principal{
+    margin: 70px auto;
+    max-width: 940px;
+}
+
+.conteudo-principal div{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.dados-login h1{
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 5px;
+    color:blueviolet;
+    font-weight: bold;
+}
+
+form input{
+    display: block;
+    font-size: 20px;
+    border: none;
+    padding-top: 25px;
+    border-bottom: solid 1px #000000;
+}
+
+form label{
+
+}
+
+
+/* 
 header{
     text-align: center;
     padding: 20px;
@@ -78,6 +111,10 @@ form label{
     font-size: 16px;
 }
 
+.previa{
+    background: red;
+}
+
 footer{
     text-align: center;
  }
@@ -93,4 +130,4 @@ footer{
 .copyright{
     padding-bottom: 10px;
     font-size: 20px;
-}
+} */
