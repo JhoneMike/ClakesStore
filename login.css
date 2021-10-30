@@ -10,10 +10,11 @@ body{
     margin: 0px;
     min-height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .conteudo-principal{
-    margin: 70px auto;
+    margin: 200px auto;
     max-width: 940px;
 }
 
@@ -23,6 +24,10 @@ body{
     box-sizing: border-box;
 }
 
+/* .dados-login{
+    border: solid 2px #000000;
+} */
+
 .dados-login h1{
     margin-left: 20px;
     font-size: 25px;
@@ -31,17 +36,32 @@ body{
     font-weight: bold;
 }
 
+.icon-email{
+    width: 10%;
+}
+
+
 form input{
-    display: block;
+    display: inline-block;
     font-size: 20px;
     border: none;
     padding-top: 25px;
     border-bottom: solid 1px #000000;
+    margin-left: 5%;
+    width: 80%;
+    outline: none;
 }
 
-form label{
-
+#email{
+    outline: none;
 }
+
+#senha::placeholder{
+    opacity: 0.7;
+}
+
+
+
 
 
 /* 
