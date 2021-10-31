@@ -6,7 +6,7 @@ html {
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    background: #FFFFFF;
+    background: blueviolet;
     margin: 0px;
     min-height: 100%;
     width: 100%;
@@ -24,9 +24,15 @@ body{
     box-sizing: border-box;
 }
 
-/* .dados-login{
-    border: solid 2px #000000;
-} */
+.dados-login{
+    background: white;
+    border-radius: 0 80px 80px 0;
+    height: 400px;
+} 
+
+.dados-login h1, form input{
+    margin-top: 50px;
+}
 
 .dados-login h1{
     margin-left: 20px;
@@ -36,31 +42,47 @@ body{
     font-weight: bold;
 }
 
-.icon-email{
-    width: 10%;
-}
-
-
 form input{
     display: inline-block;
     font-size: 20px;
     border: none;
-    padding-top: 25px;
     border-bottom: solid 1px #000000;
     margin-left: 5%;
     width: 80%;
     outline: none;
 }
 
+form input:focus{
+    transition: 0.5s all;
+    border-bottom: solid 1px blueviolet;
+}
+
 #email{
-    outline: none;
+    margin-top: 40px;
 }
 
-#senha::placeholder{
-    opacity: 0.7;
+#senha{
+    margin-top: 50px;
 }
 
+.btn-login{
+    display: block;
+    margin-top: 25px;
+    margin-left: 5%;
+    width: 81%;
+    height: 30px;
+    background: linear-gradient(rgb(152, 69, 230),rgb(94, 5, 177));
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
 
+.link{
+    margin-top: 2px;
+    margin-left: 5%;
+}
 
 
 
