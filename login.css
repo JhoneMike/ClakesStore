@@ -6,7 +6,7 @@ html {
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    background: blueviolet;
+    background: linear-gradient(90deg, rgb(152, 56, 241) 30%, rgb(106, 10, 196) 70%);
     margin: 0px;
     min-height: 100%;
     width: 100%;
@@ -86,7 +86,6 @@ form input:focus{
 
 .apresentacao h1{
     font-size: 28px;
-    text-align: center;
     margin-top: 50px;
     margin-bottom: 15px;
 }
@@ -94,22 +93,26 @@ form input:focus{
 .apresentacao p{
     font-size: 18px;
     width: 80%;
-    text-align: center;
     letter-spacing: 0.5px;
     margin: 50px auto;
     font-family: 'Zen Maru Gothic', sans-serif;
     font-style: italic;
 }
 
-#logo-footer{
-   width: 30%;
-   margin-top: 10px; 
-}
-
 .btn-register{
-    width: 50%;
+    width: 80%;
     border: none;
     border-radius: 15px;
+    height: 30px;
+    margin-top: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+#logo{
+    margin: 0;
+    width: 50%;
 }
 
 /* 
