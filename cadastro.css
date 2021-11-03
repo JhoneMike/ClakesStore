@@ -6,13 +6,40 @@ html {
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    background: linear-gradient(rgb(200, 144, 253) 10%, rgb(172, 131, 255) 25%, rgb(121, 56, 252) 80%, rgb(110, 37, 255));
     margin: 0px;
     min-height: 100%;
     max-height: 100%;
     width: 100%;
+    background: fixed;
+    overflow: hidden; 
 }
 
+
+form{
+    /* border: solid 1px #000000; */
+    width: 940px;
+    height: 600px;
+    margin: 200px auto;   
+}
+
+.campos [type="text"], [type="email"], [type="tel"], [type="password"]{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 20px;   
+}
+
+#empresa{
+    display: block;
+    margin-top: 20px;
+}
+
+.campos label{
+    display: block;
+    margin-top: 5px;
+}
+
+
+/* 
 header{
     margin: 0 auto;
     text-align: center;
@@ -91,4 +118,4 @@ footer{
 .copyright{
     padding-bottom: 10px;
     font-size: 20px;
-}
+} */
