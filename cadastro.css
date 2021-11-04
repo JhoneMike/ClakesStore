@@ -16,7 +16,7 @@ body{
 
 
 form{
-    /* border: solid 1px #000000; */
+    border: solid 1px #000000; 
     width: 940px;
     height: 600px;
     margin: 200px auto;   
@@ -25,7 +25,14 @@ form{
 .campos [type="text"], [type="email"], [type="tel"], [type="password"]{
     width: 40%;
     margin-top: 30px;
-    margin-left: 20px;   
+    margin-left: 20px;  
+    border: none; 
+    border-bottom: 1px solid #000000;
+}
+
+.campos [type="text"]:focus, [type="email"]:focus, [type="tel"]:focus, [type="password"]:focus{
+    outline: none;
+    border-bottom: 1px solid blueviolet;
 }
 
 #empresa{
@@ -36,8 +43,18 @@ form{
 .campos label{
     display: block;
     margin-top: 5px;
+    margin-left: 20px;
 }
 
+
+.botao{
+    width: 40%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+}
 
 /* 
 header{
