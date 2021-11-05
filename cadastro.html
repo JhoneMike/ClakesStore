@@ -14,14 +14,9 @@
     </head>
 
     <body>
-        <!-- <header>
-            <h1>Cadastro</h1>
-            <p id="subtitulo">Por favor, preencha os campos com suas informações.</p>
-            <br>
-        </header> -->
-
         <main>
             <form>
+                <h2>Preencha os campos abaixo com as suas informações.</h2>
                 <div class="campos">
                     <input type="text" name="nome" id="nome" required placeholder="Nome *">
 
@@ -35,7 +30,7 @@
 
                     <input type="password" name="senha" id="senha" required placeholder="Senha *">
 
-                    <input type="password" name="senha" id="senha" required placeholder="Confirme sua senha *">
+                    <input type="password" name="senha" id="Confirm-senha" required placeholder="Confirme sua senha *">
                 </div>
 
                 <div class="campos">
@@ -59,12 +54,15 @@
                     </label>
                 </div>
 
-                <button class="botao" type="submit">Cadastrar</button>
+
+                <div class="submit">
+                    <button class="botao" type="submit">Cadastrar</button>
+                </div>                
+
+                <div class="img-logo">
+                    <img id="logo" src="diamante-logo.png" alt="Logo de diamante da Clakes Store">
+                </div>
             </form>
         </main>
-        <!-- <footer>
-            <img id="logo-footer" src="diamante-logo.png" alt="Logo de diamante da Clakes Store">
-            <p class="copyright">Copyright Clakes Store</p>
-        </footer> -->
     </body>
 </html>

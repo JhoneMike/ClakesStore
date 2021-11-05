@@ -11,20 +11,28 @@ body{
     max-height: 100%;
     width: 100%;
     background: fixed;
+    background:  linear-gradient(90deg, rgb(152, 56, 241) 30%, rgb(106, 10, 196) 70%);
     overflow: hidden; 
 }
 
 
 form{
-    border: solid 1px #000000; 
+    margin: 200px auto; 
     width: 940px;
-    height: 600px;
-    margin: 200px auto;   
+    height: 600px;   
+    background-color: #FFFFFF;   
+    border-radius: 25px;
+}
+
+form h2{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 .campos [type="text"], [type="email"], [type="tel"], [type="password"]{
     width: 40%;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 20px;  
     border: none; 
     border-bottom: 1px solid #000000;
@@ -33,6 +41,10 @@ form{
 .campos [type="text"]:focus, [type="email"]:focus, [type="tel"]:focus, [type="password"]:focus{
     outline: none;
     border-bottom: 1px solid blueviolet;
+}
+
+#sobrenome, [type="tel"], #Confirm-senha{
+    margin-left: 80px;
 }
 
 #empresa{
@@ -46,93 +58,26 @@ form{
     margin-left: 20px;
 }
 
+.submit{
+    text-align: center;
+}
 
 .botao{
-    width: 40%;
+    width: 50%;
     height: 30px;
     margin-left: 20px;
     margin-top: 10px;
     border: none;
     border-radius: 15px;
+    background: linear-gradient(rgb(152, 69, 230),rgb(94, 5, 177));
+    color: #FFFFFF;
+    display: inline-block;
 }
 
-/* 
-header{
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Stick No Bills', sans-serif;
-}
-
-header p{
-    font-size: 18px;
-    padding-top: 40px;
-}
-
-main{
-    width: 940px;
-    margin: auto;
-}
-
-.campos label{
-    margin-top: 10px;
-    display: block;
-}
-
-.campos input[type="text"]{
-    display: block;
-}
-
-.campos input[type="text"], .campos input[type="email"], .campos input[type="tel"], .campos input[type="password"]{
-    width: 25%;
-}
-
-.campos input{
-    border-radius: 5px;
-}
-
-#informacao{
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.botao{
-    width: 50%;
-    height: 35px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    background: darkviolet;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-}
-
-.botao:hover{
-    transform: scale(1.05);
-    transition: all 1s;
-}
-
-footer{
+.img-logo{
     text-align: center;
 }
 
-#logo-footer{
-    width: 10%;
+#logo{
+    width: 20%;
 }
-
-.copyright::before{
-    content: "©";
-}
-
-.copyright{
-    padding-bottom: 10px;
-    font-size: 20px;
-} */
